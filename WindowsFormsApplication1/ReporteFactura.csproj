@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Remito.rdlc" />
     <EmbeddedResource Include="Default.rdlc" />
     <EmbeddedResource Include="FacturaRpt.resx">
       <DependentUpon>FacturaRpt.cs</DependentUpon>
@@ -86,7 +87,6 @@
     <EmbeddedResource Include="RemitoFrm.resx">
       <DependentUpon>RemitoFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Report1.rdlc" />
     <EmbeddedResource Include="ReporteFacturaForm.resx">
       <DependentUpon>ReporteFacturaForm.cs</DependentUpon>
     </EmbeddedResource>
