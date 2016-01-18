@@ -49,11 +49,18 @@
   <ItemGroup>
     <Compile Include="EArticulo.cs" />
     <Compile Include="EFactura.cs" />
+    <Compile Include="ERemito.cs" />
     <Compile Include="FacturaRpt.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FacturaRpt.Designer.cs">
       <DependentUpon>FacturaRpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemitoFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemitoFrm.Designer.cs">
+      <DependentUpon>RemitoFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="ReporteFacturaForm.cs">
       <SubType>Form</SubType>
@@ -76,6 +83,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RemitoFrm.resx">
+      <DependentUpon>RemitoFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
     <EmbeddedResource Include="ReporteFacturaForm.resx">
       <DependentUpon>ReporteFacturaForm.cs</DependentUpon>
     </EmbeddedResource>

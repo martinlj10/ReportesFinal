@@ -165,8 +165,12 @@ namespace WindowsFormsApplication1
             //que se mostrara en los parametros creados en el LocalReport, para este ejemplo
             //estamos Seteando los valores directamente pero usted puede usar algun control
             //
-            frm.Titulo = "Factura";
+            frm.Titulo = "Código Nro: 03";
             frm.Empresa = "Mundo Renault";
+            frm.FecVto = "02/01/2017";
+            frm.CAI = "41180015971823";
+            frm.Cuit = "30-59422378-7";
+
             //
             //Recuerde que invoice es una Lista Generica declarada en el FacturaRtp, es una lista
             //porque el origen de datos del LocalReport unicamente permite ser enlazado a objetos que 

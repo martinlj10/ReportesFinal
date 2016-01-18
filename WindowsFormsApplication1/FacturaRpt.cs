@@ -23,6 +23,9 @@ namespace WindowsFormsApplication1
         //
         public string Titulo { get; set; }
         public string Empresa { get; set; }
+        public string CAI { get; set; }
+        public string FecVto { get; set; }
+        public string Cuit { get; set; }
 
         public FacturaRpt()
         {
@@ -40,9 +43,12 @@ namespace WindowsFormsApplication1
             //Establezcamos los parámetros que enviaremos al reporte
             //recuerde que son dos para el titulo del reporte y para el nombre de la empresa
             //
-            ReportParameter[] parameters = new ReportParameter[2];
+            ReportParameter[] parameters = new ReportParameter[5];
             parameters[0] = new ReportParameter("parametroTitulo", Titulo);
             parameters[1] = new ReportParameter("parametroEmpresa", Empresa);
+            parameters[2] = new ReportParameter("parametroCai", CAI);
+            parameters[3] = new ReportParameter("parametroFecVto", FecVto);
+            parameters[4] = new ReportParameter("parametroCuit", Cuit);
 
             //
             //Establezcamos la lista como Datasource del informe
