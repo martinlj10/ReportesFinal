@@ -170,6 +170,9 @@ namespace WindowsFormsApplication1
             frm.FecVto = "02/01/2017";
             frm.CAI = "41180015971823";
             frm.Cuit = "30-59422378-7";
+            frm.InicioAct = "29/03/2008";
+            frm.DirEmpresa = "Av.Pellegrini 3971, Rosario, Santa Fe";
+            frm.TelEmpresa = "(0341) 432-8098";
 
             //
             //Recuerde que invoice es una Lista Generica declarada en el FacturaRtp, es una lista
