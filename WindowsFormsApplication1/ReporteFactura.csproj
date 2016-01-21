@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Informe_Stock.rdlc" />
     <EmbeddedResource Include="Remito.rdlc" />
     <EmbeddedResource Include="Default.rdlc" />
     <EmbeddedResource Include="FacturaRpt.resx">
